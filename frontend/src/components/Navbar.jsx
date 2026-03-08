@@ -21,7 +21,7 @@ function Navbar() {
               HRMS Lite
             </div>
             <div className="text-xs text-slate-500">
-              Lightweight HR & Attendance
+               HR & Attendance
             </div>
           </div>
         </div>
