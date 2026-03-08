@@ -26,7 +26,7 @@ function EmployeesPage() {
   };
 
   const handleDelete = async (emp) => {
-    if (!window.confirm(`Delete employee ${emp.full_name}?`)) return;
+    // if (!window.confirm(`Delete employee ${emp.full_name}?`)) return;
     setActionError(null);
     try {
       await EmployeeService.deleteEmployee(emp.id);
