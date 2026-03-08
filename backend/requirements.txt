@@ -1,0 +1,9 @@
+django==3.2.25
+djangorestframework==3.14.0
+djongo==1.3.6
+# Djongo 1.3.6 is compatible with PyMongo 3.12.x, not 4.x
+pymongo==3.12.3
+dnspython==2.6.1
+django-cors-headers==4.4.0
+gunicorn==21.2.0
+python-dotenv==1.0.1
