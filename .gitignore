@@ -1,0 +1,37 @@
+# Python/Django
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+.env
+.env.*
+*.log
+*.pot
+*.pyc
+
+# Django migrations
+*/migrations/*.pyc
+*/migrations/*.py
+*/migrations/__pycache__/
+!*/migrations/__init__.py
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+dist/
+build/
+
+# VSCode / IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
